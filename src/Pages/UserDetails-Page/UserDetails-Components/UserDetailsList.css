@@ -1,0 +1,25 @@
+.detailsList {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  height: 350px;
+  list-style: none;
+  padding: 0;
+  background-color: gray;
+  padding: 2em;
+}
+
+.detailsList li {
+  font-size: 2rem;
+  color: white;
+}
+
+.detailsList li span {
+  color: black;
+}
+
+.detailsList button {
+  height: 40px;
+  width: 250px;
+  margin-inline: auto;
+}

@@ -1,0 +1,29 @@
+.navigationContainer ul {
+  display: flex;
+  justify-content: space-evenly;
+  width: 1000px;
+  margin: 0;
+}
+
+.navigationContainer ul li {
+  display: flex;
+  align-content: flex-start;
+  list-style: none;
+}
+
+.navigationContainer ul li a {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  width: 300px;
+  height: 100px;
+  border-radius: 11px;
+  text-decoration: none;
+  color: white;
+  font-size: 1.5rem;
+  background-color: rgb(35, 176, 211);
+}
+
+.border {
+  border: 2px solid rgb(0, 0, 0);
+}

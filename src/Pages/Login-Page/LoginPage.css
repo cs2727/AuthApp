@@ -1,0 +1,32 @@
+.LoginContainer {
+  width: 500px;
+  background-color: white;
+  padding: 2em;
+  border-radius: 10px;
+}
+
+.LoginContainer h1 {
+  text-align: center;
+}
+
+form {
+  display: flex;
+  flex-flow: column nowrap;
+  height: 100%;
+}
+
+form label {
+  font-size: 1.3rem;
+}
+
+form input {
+  height: 35px;
+  padding-left: 0.2em;
+  font-size: 1.2rem;
+  margin-block: 1em;
+}
+
+form .btn {
+  width: 100px;
+  margin-inline: auto;
+}
